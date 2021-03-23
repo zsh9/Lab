@@ -1,0 +1,81 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.0"
+    defaultConfig {
+        applicationId "com.example.safe.a"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    /**
+     * 支持表达式
+     */
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    android {
+        useLibrary 'org.apache.http.legacy'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+
+    //工具类 非常好用
+    implementation 'com.blankj:utilcode:1.19.3'
+    /**
+     * 网络通信框架
+     */
+    implementation 'com.rxjava.rxhttp:rxhttp:2.1.1' //必须
+    annotationProcessor 'com.rxjava.rxhttp:rxhttp-compiler:2.1.1' //注解处理器，生成RxHttp类,必须
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'  //切换主线程，Android工程必须
+    implementation 'com.rxjava.rxlife:rxlife-x:2.0.0'  //页面销毁，关闭请求，非必须
+
+    //事件 总站
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    //底部导航栏
+    implementation 'me.majiajie:pager-bottom-tab-strip:2.2.5'
+    implementation 'com.youth.banner:banner:2.0.4'
+
+    //下拉刷新
+    implementation 'com.jcodecraeer:xrecyclerview:1.5.9'
+//    implementation 'jp.wasabeef:glide-transformations:4.1.0'
+//
+//    implementation 'com.github.bumptech.glide:glide:4.9.0'
+
+    implementation 'cn.bmob.android:bmob-sdk:3.7.9'
+    implementation "io.reactivex.rxjava2:rxjava:2.2.8"
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.14.4'
+    implementation 'com.squareup.okio:okio:2.2.2'
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+
+
+    compile('com.qiniu:qiniu-java-sdk:7.4.0') {
+        exclude group: 'com.squareup.okhttp3', module: 'okhttp'
+    }
+    compile 'com.squareup.okhttp3:okhttp:3.12.6'
+    implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.3'
+
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+}

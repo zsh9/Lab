@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.example.map.mylocation.view.NormalToolbar
+        android:id="@+id/normal_toolbar_reg"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"></com.example.map.mylocation.view.NormalToolbar>
+
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></com.youth.banner.Banner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/finduser"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bottom_item"
+            android:text="实验室申请管理"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/find_leave"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bottom_item"
+            android:text="报告评价管理"
+            android:textColor="@color/white"></Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/jiaoshiguanli"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bottom_item"
+            android:text="教室管理"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/qicaiguanli"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bottom_item"
+            android:text="器材管理"
+            android:textColor="@color/white"></Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/guanligongzi"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bottom_item"
+            android:text="发布通知"
+            android:textColor="@color/white"></Button>
+
+        <Button
+            android:id="@+id/fabugonggao"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bottom_item"
+            android:text="发布公告"
+            android:textColor="@color/white"></Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+package com.example.map.mylocation.bean;
+
+import java.io.Serializable;
+
+import cn.bmob.v3.BmobObject;
+
+public class Public extends BmobObject implements Serializable {
+
+    private String name;
+
+
+    private String content;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+}

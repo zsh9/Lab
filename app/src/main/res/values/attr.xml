@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleRelativeLayoutLayout">
+        <attr name="background_color" format="color" />
+        <attr name="background_alpha" format="integer" />
+    </declare-styleable>
+    // NumImageView
+    <declare-styleable name="NumImageView">
+        <attr name="textSize" format="dimension" />
+        <attr name="textMargin" format="dimension" />
+        <attr name="pointColor" format="color|reference" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="show" format="boolean" />
+        <attr name="pointText" format="string" />
+        <attr name="noNumRadius" format="dimension" />
+        <attr name="bgShape" />
+    </declare-styleable>
+    <attr name="bgShape">
+        <enum name="circle" value="0" />
+        <enum name="oval" value="1" />
+    </attr>
+    <declare-styleable name="StatusView">
+        <attr name="sv_loading_view" format="reference" />
+        <attr name="sv_empty_view" format="reference" />
+        <attr name="sv_error_view" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ColorFountTextView">
+        <attr name="text_arrays" format="string" />
+        <attr name="color_arrays" format="string" />
+        <attr name="textsize_arrays" format="string" />
+        <attr name="line_arrays" format="string" />
+        <attr name="style_arrays" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="DYLoadingView">
+        <attr name="radius1" format="dimension" />
+        <attr name="radius2" format="dimension" />
+        <attr name="rtlScale" format="float" />
+        <attr name="ltrScale" format="float" />
+        <attr name="color1" format="color" />
+        <attr name="color2" format="color" />
+        <attr name="mixColor" format="color" />
+        <attr name="duration" format="integer" />
+        <attr name="pauseDuration" format="integer" />
+        <attr name="gap" format="dimension" />
+        <attr name="scaleStartFraction" format="float" />
+        <attr name="scaleEndFraction" format="float" />
+    </declare-styleable>
+
+    <!-- 可清空编辑框属性 -->
+    <declare-styleable name="ETWithDelete">
+        <attr name="delSrc" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="DottedLine">
+        <attr name="dotColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableTextViewAttrs">
+        <!-- 允许显示最大行数 -->
+        <attr name="maxExpandLine" format="integer">4</attr>
+        <!-- 动画执行时间 -->
+        <attr name="durations" format="integer">500</attr>
+    </declare-styleable>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="riv_corner_radius" format="dimension" />
+        <attr name="riv_corner_radius_top_left" format="dimension" />
+        <attr name="riv_corner_radius_top_right" format="dimension" />
+        <attr name="riv_corner_radius_bottom_left" format="dimension" />
+        <attr name="riv_corner_radius_bottom_right" format="dimension" />
+        <attr name="riv_border_width" format="dimension" />
+        <attr name="riv_border_color" format="color" />
+        <attr name="riv_mutate_background" format="boolean" />
+        <attr name="riv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+        <attr name="riv_tile_mode">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_x">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_y">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+    </declare-styleable>
+    <!-- 自定义指示器view -->
+    <declare-styleable name="IndicatorView">
+        <attr name="indicatorColor" format="color" />
+        <attr name="indicatorColorSelected" format="color" />
+        <attr name="indicatorWidth" format="integer" />
+        <attr name="gravity" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="RoundAngleFrameLayout">
+        <attr name="radius" format="dimension" />
+        <attr name="topLeftRadius" format="dimension" />
+        <attr name="topRightRadius" format="dimension" />
+        <attr name="bottomLeftRadius" format="dimension" />
+        <attr name="bottomRightRadius" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RatioImageView">
+        <attr name="ratio" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="NineGridLayout">
+        <attr name="sapcing" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+
+    <color name="setting_gray">#f8f8f8</color>
+    <color name="bg_white">#ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="live_un">#F2F2F2</color>
+    <color name="ju">#F98031</color>
+    <color name="white_gray">#c4c4c4</color>
+    <color name="black">#99000000</color>
+    <color name="seracr_black">#1D2023</color>
+    <color name="text_black">#ff999999</color>
+    <color name="error_red">#ffff2929</color>
+    <color name="text_red">#F6452D</color>
+    <color name="text_gray">#181818</color>
+    <color name="new_black">#4A4A4A</color>
+    <color name="newblack">#AAAAAA</color>
+    <color name="bottom_item">#F98031</color>
+    <color name="live_color">#FF6B6A</color>
+    <color name="grey">#333333</color>
+    <color name="color_gray_d9d9d9">#e7e7e7</color>
+    <color name="gray7">#c5c4c4</color>
+    <color name="color_grey_999999">#999999</color>
+    <color name="bg_qgray">#F5F7F9</color>
+    <color name="line_dd">#F5F7F9</color>
+    <color name="text_222222">#222222</color>
+    <!-- main bg color -->
+    <color name="main_bg_color">#FFFFFF</color>
+    <color name="nor_color">#ff606972</color>
+    <color name="choose_color">#FF7B12</color>
+    <color name="choose_team_color">#E85A4C</color>
+    <color name="choose_team_black">#000000</color>
+    <color name="choose_team_gray">#606972</color>
+
+    <color name="choose_text_itemncolor">#FD793B</color>
+    <!-- session -->
+
+    <!-- image picker -->
+
+    <!-- contact -->
+
+    <!-- setting -->
+
+
+    <color name="text_title">#363636</color>
+    <!--品牌区-->
+    <color name="color_ppq_buy_btn">#FE7E37</color>
+    <color name="tab_unselect">#606972</color>
+
+    <!--字体规范-->
+
+    <color name="text_c4">#888888</color>
+    <!--透明背景-->
+    <color name="bg_touming">#00000000</color>
+    <color name="half_touming">#CC000000</color>
+
+    <color name="text">#363636</color>
+    <!--正常背景-->
+    <!--点击背景-->
+    <!--分隔线颜色-->
+    <color name="tab_select">#333333</color>
+    <!--字体颜色选择-->
+    <color name="namess">#FF6B6A</color>
+    <color name="software_textColor_unselectedss">#CCCCCC</color>
+
+
+    <color name="colorBack">#ededee</color>
+    <color name="colorNormal">#61656c</color>
+    <color name="colorLine">#cececf</color>
+    <color name="colorBlue">#149bee</color>
+    <color name="colorWhite">#ffffff</color>
+
+</resources>
